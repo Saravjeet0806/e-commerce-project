@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import connectDB from './config/db.js'
 import authRouter from './routes/authRoutes.js';
 import productRouter from './routes/productRoutes.js';
+import orderRouter from './routes/orderRoutes.js';
 
 
 dotenv.config();
@@ -19,6 +20,7 @@ app.get("/health", (req, res)=>{
 
 app.use('/api/auth', authRouter);
 app.use('/api/products', productRouter);
+app.use('/api/orders', orderRouter);
 
 const PORT = process.env.PORT || 3000 
 
