@@ -73,7 +73,7 @@ export async function loginUser(req, res){
 
 export async function getUsers(req, res){
     try {
-        const users = await userModel.findOne({}).select('-password');
+        const users = await userModel.find({}).select('-password');
         res.json(users);
     } catch (error) {
         res.status(500).json({message: 'Server error'});
