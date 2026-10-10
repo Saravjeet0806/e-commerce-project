@@ -83,3 +83,6 @@ coverage/
 # ------------------------------
 
 *.local
+
+*.pub
+backend/id_signing_key

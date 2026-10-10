@@ -19,7 +19,7 @@ const importData = async () => {
 
     await userModel.create({
       name: 'Admin User',
-      email: 'admin@shopnest.com',
+      email: 'admin@ecommy.com',
       password: hashedPassword,
       role: 'admin'
     });
