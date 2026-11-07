@@ -1,0 +1,14 @@
+Use the **Ecommy Modern Minimalist Blue & White E-commerce Theme** for my React + Tailwind CSS project.
+
+Design guidelines:
+- Primary: Blue (#2563EB)
+- Background: White (#FFFFFF)
+- Secondary background: Light Gray (#F3F4F6)
+- Text: Dark Gray (#374151)
+- Clean, modern, minimalist e-commerce design.
+- Subtle shadows, rounded corners, spacious layouts.
+- Blue hover effects and smooth transitions.
+- Use Tailwind CSS utility classes.
+- Maintain consistent styling across all components and pages.
+
+Do not change existing component functionality, routes, or logic unless requested.
